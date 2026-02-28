@@ -42,7 +42,7 @@
   </g>
   <g class="y-sections">
     {#if ySections}
-      {#each Array(ySections - 1) as _, i}
+      {#each Array(ySections - 2) as _, i}
         <line
           class:minor={$lightenOddGridStore && ySections % 3 === (i + 1) % 2}
           x1="0%"
