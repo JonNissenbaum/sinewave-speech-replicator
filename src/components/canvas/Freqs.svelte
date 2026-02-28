@@ -26,7 +26,7 @@
   {#if sections}
     {#each Array(sections) as _, i}
       <span 
-        class:minor={$lightenOddGridStore && (i + 1) % 2 === 1}
+        class:minor={$lightenOddGridStore && (i + 1) % 2 === 1}>
         {($maxFreqStore - diff * i).toFixed(1)} Hz
       </span>
     {/each}
