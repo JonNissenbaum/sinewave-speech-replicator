@@ -47,7 +47,7 @@ export const allowDeleteStore = writable(true);
 export const debugModeStore = writable(false);
 
 export const showGridBG = writable(true);
-export const gridDimStore = writable([3, 8]);
+export const gridDimStore = writable([4, 6]);
 export const lightenOddGridStore = writable(true);
 
 // opacity of the image background
