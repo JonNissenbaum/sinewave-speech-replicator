@@ -44,7 +44,7 @@
     {#if ySections}
       {#each Array(ySections - 1) as _, i}
         <line
-          class:minor={$lightenOddGridStore && ySections % 1 === (i + 1) % 2}
+          class:minor={$lightenOddGridStore && (i + 1) % 2 === 1}
           x1="0%"
           y1="{(i+1)/ySections*100}%"
           x2="100%"
