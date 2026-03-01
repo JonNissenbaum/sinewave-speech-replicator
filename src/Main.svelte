@@ -55,7 +55,7 @@
 	</div>
 
 	<br/>
-	<label for="">Choose Background Image:</label>
+	<label for="">Choose Spectrogram Image:</label>
 	<FilePicker on:file={handleFile} />
 	<button on:click={handleDefaultImage}>Use Default Image</button>
 </main>
