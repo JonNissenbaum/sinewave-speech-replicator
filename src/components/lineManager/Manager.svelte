@@ -116,6 +116,8 @@
     <span>
       <NewSegmentIcon on:click={addSegment} />
     </span>
+	<br>
+	<label for="">new line</label>
   </div>
 </div>
 
