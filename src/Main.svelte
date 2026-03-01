@@ -52,6 +52,7 @@
 			<Controls />
 		</div>
 		<LineManager />
+		<label for="">new line</label>
 	</div>
 
 	<br/>
