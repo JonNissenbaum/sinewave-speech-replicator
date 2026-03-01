@@ -8,7 +8,7 @@
   menu.push({ name: 'About', children: [
     { 
       name: 'File An Issue', 
-      action: () => window.open('https://github.com/EmNudge/Spectrogram-Replicator/issues/new') 
+      action: () => window.open('https://github.com/JonNissenbaum/sinewave-speech-replicator/issues/new') 
     },
     {
       name: 'About Creator', action: () => window.open('https://kipperman.co')
