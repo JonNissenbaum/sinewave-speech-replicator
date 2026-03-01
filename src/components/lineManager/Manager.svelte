@@ -119,11 +119,6 @@
   </div>
 </div>
 
-<div class="labels">
-	<span>
-	</span>
-</div>
-
 {#if showMenu}
   <BarContextMenu 
     lineId={activelineId} 
