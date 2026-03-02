@@ -16,6 +16,11 @@
     bg = new URL('images/spectrogram.jpg', document.baseURI).href;
 	}
 
+	function handleDefaultImage2() {
+    bg = new URL('images/spectrogram.jpg', document.baseURI).href;
+	}
+
+
 </script>
 
 <style>
@@ -58,4 +63,5 @@
 	<label for="">Choose Spectrogram Image:</label>
 	<FilePicker on:file={handleFile} />
 	<button on:click={handleDefaultImage}>Use Default Image</button>
+	<button on:click={handleDefaultImage2}>Use Image 2</button>
 </main>
