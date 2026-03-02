@@ -17,7 +17,7 @@
 	}
 
 	function handleDefaultImage2() {
-    bg = new URL('images/spectrogram.jpg', document.baseURI).href;
+    bg = new URL('images/image2.jpg', document.baseURI).href;
 	}
 
 
